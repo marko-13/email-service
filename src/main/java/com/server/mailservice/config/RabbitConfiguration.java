@@ -51,7 +51,7 @@ public class RabbitConfiguration {
     public CachingConnectionFactory rabbitConnectionFactory(RabbitProperties config) throws Exception {
 
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
-        connectionFactory.getRabbitConnectionFactory().setUri("amqp://pyfondlw:b8u3gSPHBaR7uG9POxZ3rYnR5ozeUStw@lion.rmq.cloudamqp.com/pyfondlw");
+        connectionFactory.getRabbitConnectionFactory().setUri("\tamqp://rukdyqnn:OtOv8LFSRkEJSj2Qh1qXx1udbUt-e9_1@orangutan.rmq.cloudamqp.com/rukdyqnn");
 
         return connectionFactory;
 
