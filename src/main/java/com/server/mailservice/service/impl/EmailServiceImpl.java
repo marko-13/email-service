@@ -29,7 +29,7 @@ public class EmailServiceImpl implements EmailService {
         String subject = "User activation";
         Context context = new Context();
         context.setVariable("name", String.format("%s %s", simpleUser.getFirstName(), simpleUser.getLastName()));
-        context.setVariable("link", String.format("http://localhost:3000/login/%s", simpleUser.getId()));
+        context.setVariable("link", String.format("http://localhost:3000/", simpleUser.getId()));
         _emailContext.send(to, subject, "approveRegistration", context);
         System.out.println("Email for user account activation sent");
     }
