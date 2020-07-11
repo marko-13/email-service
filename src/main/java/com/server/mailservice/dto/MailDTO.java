@@ -9,7 +9,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class MailDTO {
 
-    private UUID id;
+    private Long id;
     private String role;
     private String username;
     private String firstName;

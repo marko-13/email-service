@@ -8,7 +8,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String home() {
-        return "<h1>Email service is running on Heroku</h1>";
+        return "<h1>Successfully deployed on Heroku</h1>";
     }
 
 }

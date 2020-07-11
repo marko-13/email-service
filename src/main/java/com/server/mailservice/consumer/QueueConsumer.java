@@ -25,7 +25,7 @@ public class QueueConsumer {
             MailDTO mail = new ObjectMapper().readValue(message, MailDTO.class);
             emailService.receiveMessage(mail);
         } catch(Exception e) {
-            System.out.println("Mail not sent");
+            System.out.println("Error, email not sent");
         }
     }
 }
